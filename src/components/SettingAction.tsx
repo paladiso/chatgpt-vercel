@@ -176,7 +176,7 @@ function exportJpg() {
     url => {
       const a = document.createElement("a")
       a.href = url
-      a.download = `ChatGPT-${dateFormat(new Date(), "HH-MM-SS")}.jpg`
+      a.download = `Aivesa-${dateFormat(new Date(), "HH-MM-SS")}.jpg`
       a.click()
     }
   )
@@ -186,7 +186,7 @@ async function exportMD(messages: ChatMessage[]) {
   const role = {
     system: "系统",
     user: "我",
-    assistant: "ChatGPT"
+    assistant: "Aivesa"
   }
   await copyToClipboard(
     messages
