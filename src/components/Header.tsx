@@ -71,7 +71,7 @@ export default function Header() {
           </Show>
         </div>
         <ThemeToggle />
-        <script async src="https://umami.appbox.fun/script.js" data-website-id="7b1192f7-9e7a-4c13-9c37-16b375ba04ef"></script>
+        <script async src="https://umami.appbox.fun/script.js" data-website-id="886b0452-da22-4868-a9f5-39888d6638bb"></script>
       </header>
     </>
   )
